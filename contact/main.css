@@ -1,0 +1,29 @@
+
+html { 
+  background: url("contact.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo{
+	position: absolute;
+}
+#nxtlogo{
+	max-width: 120px;
+	max-height: 120px;
+}
+.content{
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.content h1	{
+	font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+.content h3,h2{
+	font-family: 'Short Stack', cursive;
+}
