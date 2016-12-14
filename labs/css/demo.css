@@ -15,20 +15,20 @@
 
 body {
 	background: #2b414d;
-	color: #fffce1;
+	color: #a9a9a9;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 a {
-	color: #c94e50;
+	color: #a9a9a9;
 	text-decoration: none;
 	outline: none;
 }
 
 a:hover, a:focus {
-	color: #4681a0;
+	color: #a9a9a9;
 	outline: none;
 }
 
