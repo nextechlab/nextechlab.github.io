@@ -1,3 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+.top{
+	text-align: center;
+	width: 100%;
+}
+#list{
+	display: inline-block;
+	width: 100%;
+}
+.tab{
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	text-transform: uppercase;	
+	
+}
+.tab a{
+	text-decoration: none;
+	color: #fff;
+	
+
+}
+
 @font-face {
 	font-weight: normal;
 	font-style: normal;

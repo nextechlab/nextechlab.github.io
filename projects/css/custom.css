@@ -1,3 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+.top{
+	text-align: center;
+	width: 100%;
+}
+#list{
+	display: inline-block;
+	width: 100%;
+}
+.tab{
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	text-transform: uppercase;	
+	
+}
+.tab a{
+	text-decoration: none;
+	color: #fff;
+	
+
+}
+
 .demo-1 .sl-slider-wrapper {
 	position: absolute;
 	width: 100%;
@@ -348,6 +378,47 @@
 	color: #000;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
+/** 6th **/
+.demo-1 .bg-6 .sl-slide-inner,
+.demo-1 .bg-6 .sl-content-slice {
+	background: #ffeb41;
+	background: url("swag.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/** 7th **/
+.demo-1 .bg-7 .sl-slide-inner,
+.demo-1 .bg-7 .sl-content-slice {
+	background: #ffeb41;
+	background: url("sahas.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/** 8th **/
+.demo-1 .bg-8 .sl-slide-inner,
+.demo-1 .bg-8 .sl-content-slice {
+	background: #ffeb41;
+	background: url("freakn.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/** 9th **/
+.demo-1 .bg-9 .sl-slide-inner,
+.demo-1 .bg-9 .sl-content-slice {
+	background: #ffeb41;
+	background: url("amps.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .demo-1 .bg-5 blockquote:before {
 	color: #ecd82c;
@@ -575,3 +646,4 @@
 	}
 
 }
+

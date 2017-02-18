@@ -1,4 +1,5 @@
 /* Set everything to take full height */
+@import url('https://fonts.googleapis.com/css?family=Lato');
 html, 
 body,
 .container,
@@ -8,6 +9,36 @@ body,
 .slide {
 	height: 100%; 
 	min-height: 480px;
+}
+
+
+.top{
+	text-align: center;
+	width: 100%;
+	z-index: 999;
+}
+#list{
+	display: inline-block;
+	width: 100%;
+}
+.tab{
+	font-family: "Lato", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	text-transform: uppercase;	
+	
+}
+.tab a{
+	text-decoration: none;
+	color: #fff;
+	
+
 }
 /* Main slideshow wrapper */
 .slideshow {
