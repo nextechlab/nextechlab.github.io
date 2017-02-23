@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato');
 html { 
-  background: url("contact2.jpg") no-repeat center center fixed; 
+  background: url("back2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +19,7 @@ html {
 .tab{
 	font-family: "Droid Sans", arial, verdana, sans-serif;
 	font-weight: 700;
-	color: #000;
+	color: white;
 	text-decoration: none;
 	display: inline-block;
 	padding-top: 2%;
@@ -30,7 +31,7 @@ html {
 }
 .tab a{
 	text-decoration: none;
-	color: #000;
+	color: white;
 	
 
 }
@@ -45,6 +46,7 @@ html {
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
+	color: white;
 }
 
 .content h1	{
@@ -53,10 +55,10 @@ html {
     text-decoration: underline;
 }
 .content h3,h2{
-	font-family: 'Short Stack', cursive;
+	font-family: 'Lato', sans-serif;
 }
 .fa{
-	color: black;
+	color: white;
 }
 .fa:hover{
 	transition: ease 0.5s;
