@@ -271,6 +271,88 @@ h1 sub
 		font-size: 2.3em;
 	}
 }
+box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 0px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  z-index: 999;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
 </style>
 <link rel="shortcut icon" href="logo.png" >
 </head>
@@ -281,7 +363,15 @@ h1 sub
 		<li class="tab"><h2><a href="https://www.facebook.com/NextTechSRM/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></h2></li>
 		<li class="tab"><h2><a href="https://twitter.com/nexttechlab"><i class="fa fa-twitter" aria-hidden="true"></i></a></h2></li>
 		<li class="tab"><a href="index2.html" id="donate">HOME</a></li>
-		<li class="tab"><a href="#" id="donate">DONATE</a></li>
+		<li class="tab"><div class="box"><a href="#popup1" id="donate">DONATE</a></div>
+		<div id="popup1" class="overlay">
+	<div class="popup" style="background-color: white; padding: 50px;z-index: 999;">
+		<a class="close" href="#">&times;</a>
+		<div class="content" style="color: black;">
+			If you'd like to Sponsor, Collaborate or Make a Gift to the lab-Please send an email to info@nextech.io and we'll get back to you with more details.
+		</div>
+	</div>
+</div></li>
 		<li class="tab"><h2><a href="https://www.instagram.com/nexttechlab/"><i class="fa fa-instagram" aria-hidden="true"></i></a></h2></li>
 		<li class="tab"><h2><a href="https://www.linkedin.com/company/next-tech-lab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></h2></li>
 	</ul>
