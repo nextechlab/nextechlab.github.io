@@ -73,3 +73,9 @@ html {
 	display: inline-block;
 	padding-right: 2%;
 }
+#donate{
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 5% 10% 5% 10%;
+	font-size: 2em;
+}
