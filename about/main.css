@@ -68,6 +68,7 @@ html {
 	display: inline-block;
 	list-style-type: none;
 	width: 100%;
+  text-align: center; 
 }
 #social li{
 	display: inline-block;
@@ -162,4 +163,14 @@ html {
   .popup{
     width: 70%;
   }
+}
+.in{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 3%;
+}
+.new{
+  padding-bottom: 3%;
 }
